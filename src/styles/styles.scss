@@ -1,0 +1,43 @@
+.heading-image{
+    height: 150px;
+    width: 100%;
+}
+.heading-section{
+    background: rgb(139, 195, 74);
+}
+
+.row{
+    display: flex;
+    grid-row:auto;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 400px;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .card-btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .card-btn:hover {
+  background-color: white;
+}
